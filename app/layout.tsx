@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Privacy-first web toolkit for image processing, document handling, QR codes, and smart text storage. Zero server uploads, 100% secure.",
   keywords: "image compressor, PDF merger, QR generator, document scanner, AI tools, privacy secure",
-  generator: 'v0.dev'
+  generator: 'janak'
 }
 
 export default function RootLayout({
@@ -26,7 +26,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Favicon and Social Preview */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
         <meta property="og:image" content="/favicon.png" />
         <meta name="twitter:image" content="/favicon.png" />
